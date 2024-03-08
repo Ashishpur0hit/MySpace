@@ -94,7 +94,7 @@
                     app:cardElevation="5dp">
 
                     <EditText
-
+                        android:id="@+id/etFirstName"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginStart="10dp"
@@ -131,7 +131,7 @@
                     app:cardElevation="5dp">
 
                     <EditText
-
+                        android:id="@+id/etLastName"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginStart="10dp"
@@ -165,7 +165,7 @@
                     app:cardElevation="5dp">
 
                     <EditText
-                        android:id="@+id/etRegisterPassword"
+                        android:id="@+id/etRegisterEmail"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginStart="10dp"
@@ -198,7 +198,7 @@
                     app:cardElevation="5dp">
 
                     <EditText
-                        android:id="@+id/etInstitute"
+                        android:id="@+id/etRegisterPassword"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginStart="10dp"
@@ -250,6 +250,7 @@
 
 
         <LinearLayout
+            android:id="@+id/AlreadyUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"

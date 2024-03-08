@@ -96,7 +96,7 @@
                 app:cardBackgroundColor="@color/white">
 
                 <EditText
-                    android:id="@+id/etRegisterPassword"
+                    android:id="@+id/etLogInEmail"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Enter Your Email"
@@ -129,7 +129,7 @@
                 app:cardBackgroundColor="@color/white">
 
                 <EditText
-                    android:id="@+id/etInstitute"
+                    android:id="@+id/etLogInPassword"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Enter Your Password"
@@ -203,6 +203,7 @@
 
 
     <LinearLayout
+        android:id="@+id/NewUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
